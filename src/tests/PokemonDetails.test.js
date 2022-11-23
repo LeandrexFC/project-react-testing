@@ -94,7 +94,6 @@ describe('tests of Pokemon Details component', () => {
     });
 
     const isFavorited = screen.getByLabelText(/pokémon favoritado\?/i);
-
     expect(favoriteStar2).toBeInTheDocument();
     expect(favoriteBox).toBeInTheDocument();
     expect(isFavorited).toBeInTheDocument();
